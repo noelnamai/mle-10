@@ -130,3 +130,6 @@ dmypy.json
 
 # Mac DS_Store
 .DS_Store
+
+# Ignore Reddit Authentication
+secrets_reddit.py
