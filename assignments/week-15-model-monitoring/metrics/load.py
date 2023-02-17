@@ -1,9 +1,7 @@
 from argparse import ArgumentParser
 from random import gauss
 from time import sleep
-
 from requests import Session
-
 
 def main(classification):
     data = (
@@ -19,7 +17,6 @@ def main(classification):
             if i % 10 == 0:
                 print(f"response[{i}]: {resp.json()}")
             sleep(0.1)
-
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="Generate inference workload.")

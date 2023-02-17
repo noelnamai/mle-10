@@ -28,6 +28,5 @@ def main():
         path="./histogram.prom",
     )
 
-
 if __name__ == "__main__":
     main()
